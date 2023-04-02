@@ -63,7 +63,7 @@ h6 {
 
 .rose-element{
 	position: absolute;
-	bottom: 140px;
+	bottom: 200px;
 	left: -20px;
 	display: flex;
 	justify-content: flex-end;
@@ -71,6 +71,17 @@ h6 {
 .rose-element-img{
 	width: 240px;
 	height: auto;
+}
+
+
+#hero {
+  background-image: url( '../img/rose.png' ), url( '../img/rose.png' );
+  background-position-x: left,right;
+  background-position-y: center,center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 10%;
+
+  /*background-size: cover;*/
 }
 
 /*--------------------------------------------------------------
